@@ -13,7 +13,7 @@ const HigherOrderFunction = (WrappedComponent) => {
       </div>
     );
   };
-  return HOC;
+  return HOC; 
 };
 
 export default HigherOrderFunction;
