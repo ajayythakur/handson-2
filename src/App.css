@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App {
   text-align: center;
 }
@@ -36,3 +37,17 @@
     transform: rotate(360deg);
   }
 }
+=======
+.container{
+    height: 45vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 500;
+}
+>>>>>>> ef8c346cdb7b1e496f1cc091068433a9413ea7ce

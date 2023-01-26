@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,20 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+import "./App.css";
+import ClickCounter from "./Components/ClickCounter";
+import HoverCounter from "./Components/HoverCounter";
+
+function App() {
+  return (
+    <div className="container">
+      <h1>Higher Order Function</h1>
+      <ClickCounter />
+      <HoverCounter />
+
+    <article>In this App, the main logic(for increasing counter) is kept separated in a Component. <br/></article>
+>>>>>>> ef8c346cdb7b1e496f1cc091068433a9413ea7ce
     </div>
   );
 }
