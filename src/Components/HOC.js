@@ -7,7 +7,7 @@ const HigherOrderFunction = (WrappedComponent) => {
     const Increment = () => {
       setCounter(counter + 1);
     };
-    return (
+    return ( 
       <div>
         <WrappedComponent counter={counter} Increment={Increment} />
       </div>
